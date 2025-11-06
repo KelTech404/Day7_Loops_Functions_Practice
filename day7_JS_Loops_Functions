@@ -1,0 +1,32 @@
+//"for" Loop 
+// for (let i = 1; i <=3; i++){
+//     console.log(i);
+// }
+//     let count = 1; 
+//     while (count <= 3){ 
+//     console.log(count)  
+//     count++;
+// }
+
+// //"Do" Loop do at least once
+//  let num = 5;
+//  do{
+//      console.log("Do once");
+//  } while (num < 3);
+
+
+//  //Array
+//  let fruit = ["Apple", "Banana", "Mango"];
+//     fruit.forEach((fruit)=> {
+//     console.log(fruit)
+//  })
+
+
+//FUNCTIONS
+function add(a, b=0){
+    return (a+b)
+}
+
+let sum = add(2,3);{
+    console.log(sum)
+}
